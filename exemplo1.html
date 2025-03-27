@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <video src="video.mp4" controls> </video > <br>
+    <video src="video.mp4" type="video/mp4" controls width="300px" height="500px" id="videoo"> </video > <br>
 
     <button id="largura"> Largura </button> <br>
     <button id="Altura"> Altura </button> <br>
@@ -15,6 +15,10 @@
     <button id="troca"> Troca </button> <br>
     <button id="legenda"> Legenda </button> <br>
 
+        <script>
 
+            console.log(videoo.canPlayType("video/mp4"));
+
+        </script>
 </body>
 </html>
